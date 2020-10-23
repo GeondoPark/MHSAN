@@ -3,11 +3,11 @@ This repository is the official PyTorch implementation of MHSAN: Multi-Head Self
 by [Geondo Park](https://github.com/GeondoPark), Chihye Han, Wonjun Yoon, Daeshik Kim.
 
 ## Prepare Dataset
-Download the dataset files: [coco](https://cocodataset.org/#download) [Flickr](http://shannon.cs.illinois.edu/DenotationGraph/)
+Download the dataset files: [coco](https://cocodataset.org/#download), [Flickr](http://shannon.cs.illinois.edu/DenotationGraph/)
 
 We use splits produced by [Andrej Karpathy](https://cs.stanford.edu/people/karpathy/deepimagesent/). 
 Download the json file from [here](https://cs.stanford.edu/people/karpathy/deepimagesent/caption_datasets.zip).
-Then, put it same directory, respectively (ref, get_data_path in utils.py)
+Then, put it same directory, respectively. (ref, get_data_path in utils.py)
 
 ## Train Coco
 For train the new model with coco dataset, run train_coco.py
